@@ -4,7 +4,7 @@ import HeadContent from './HeadContent'
 
 const Header = () => {
   return (
-    <div className=' w-screen h-[50vh] bg-blue-600'>
+    <div className=' w-screen h-[70vh] bg-blue-600'>
         <Nav/>
         <HeadContent/>
     </div>
