@@ -1,12 +1,11 @@
 import React from 'react'
 import thinkingGuy from '../Assets/thinkingGuy.svg'
-import tick from '../Assets/tick.svg'
-import fifty from '../Assets/fifty.svg'
+import tick from '../Assets/tick.svg' 
 
 const CalltoAction = () => {
   return (
     <div>
-          <div className=' w-full h-[60rem] bg-green-800 flex gap-10 '>
+      <div className=' h-[40rem] flex justify-center items-center gap-5 '>
         <div className=' my-20'>
             <img src={thinkingGuy} alt="" className=' w-[40rem] h-[35rem]'/>
         </div>
@@ -29,7 +28,6 @@ const CalltoAction = () => {
         <div><button className=' w-[169px] bg-[#FF5A05] h-[62px] text-white font-bold rounded-md'>Learn More </button></div>
       </div>
     </div>
-    <div> <img src={fifty} alt="" /> </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import logo from "../Assets/logo.svg"
 
 const Nav = () => {
   return (
-    <div className=' w-full h-10 flex items-center justify-around py-10'>
+    <div className=' h-10 flex items-center justify-around py-10'>
         <img src={logo} alt="" />
         <ul className=' flex gap-5 text-sm font-semibold text-white'>
             <li>Home</li>

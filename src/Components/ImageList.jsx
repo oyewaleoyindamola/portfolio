@@ -9,7 +9,7 @@ import walmart from '../Assets/Walmart.svg'
 
 const ImageList = () => {
   return (
-    <div className=' w-full h-50  flex flex-wrap gap-10 justify-center items-center'>
+    <div className='  h-50  flex flex-wrap gap-10 justify-center items-center'>
       <div  className=' w-full h-24 flex gap-10 justify-center items-center' >
         <div className=' shadow-md'><img src={ fedex} alt=""  className=' w-36 rounded-md p-4'/></div>
         <div className=' shadow-md'><img src={ google} alt="" className=' w-36 rounded-md p-4' /></div>

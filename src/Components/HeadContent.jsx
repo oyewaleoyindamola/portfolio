@@ -3,7 +3,7 @@ import heroimage from '../Assets/heroImage.svg'
 
 const HeadContent = () => {
   return (
-    <div className=' w-screen h-[100%] flex flex-row justify-around align-middle items-center'>
+    <div className='h-[100%] flex flex-row justify-around align-middle items-center'>
       <div className=' w-[20%] h-[70%] bg-transparent flex flex-col  items-start'> 
       <div>
             <p className=' text-white text-xs font-semibold'>
